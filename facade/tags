@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Check	facade.h	/^	int Check(){$/;"	f	class:Mem	access:private	signature:()
+Mem	facade.h	/^	Mem(){}$/;"	f	class:Mem	access:private	signature:()
+Mem	facade.h	/^class Mem$/;"	c
+Mem::Check	facade.h	/^	int Check(){$/;"	f	class:Mem	access:private	signature:()
+Mem::Mem	facade.h	/^	Mem(){}$/;"	f	class:Mem	access:private	signature:()
+Mem::fan	facade.h	/^	string fan;$/;"	m	class:Mem	access:private
+Node	test.h	/^struct Node {$/;"	s
+Node::next	test.h	/^	Node* next;$/;"	m	struct:Node	access:public
+Node::val	test.h	/^	int val;$/;"	m	struct:Node	access:public
+__FACADE_H__	facade.h	2;"	d
+fan	facade.h	/^	string fan;$/;"	m	class:Mem	access:private
+next	test.h	/^	Node* next;$/;"	m	struct:Node	access:public
+val	test.h	/^	int val;$/;"	m	struct:Node	access:public
